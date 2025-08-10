@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="text-slate-300 text-sm">
         <span>Powered By </span>
         <Link href={"https://kchord.com"} className="text-[#ff4a6e] font-bold ">
-          K Chord (Pvt) Ltd
+          K-Chord (Pvt) Ltd
         </Link>
       </div>
     </div>

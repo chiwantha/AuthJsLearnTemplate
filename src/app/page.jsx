@@ -23,11 +23,11 @@ export default function Home() {
           className="object-contain"
         />
       </div>
-      <div className="w-full flex md:flex-row flex-col">
+      <div className="w-full flex md:flex-row flex-col  gap-6">
         {/* authjs description */}
         <div
-          className="w-full p-4  flex flex-col justify-start
-         items-end text-right space-y-4"
+          className="w-full  flex flex-col justify-start
+         md:items-end items-center text-center md:text-right gap-6"
         >
           <h1
             className="text-7xl font-black tracking-tight text-transparent
@@ -35,7 +35,7 @@ export default function Home() {
           >
             AuthJs
           </h1>
-          <p className=" text-red-300">
+          <p className=" text-red-300  md:w-full w-[75%]">
             Next.js with Auth.js enables you to build fast, SEO-friendly web
             apps with secure, flexible authentication out of the box
           </p>
@@ -48,19 +48,19 @@ export default function Home() {
           </div>
         </div>
         {/* nextjs content */}
-        <div className="flex gap-4 items-start w-full p-4 flex-col justify-center">
-          <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-6 items-center md:items-start w-full flex-col justify-center text-center md:text-left">
+          <div className="flex gap-2 flex-wrap md:order-1 order-3 md:justify-start justify-center w-full">
             {features.map((feature, index) => (
               <FeatureCard key={index} text={feature} />
             ))}
           </div>
           <h1
             className="text-7xl mt-[-10px] font-black tracking-tight text-transparent
-          bg-gradient-to-bl from-[#e2e2e2] to-[#a5a1e2] bg-clip-text"
+          bg-gradient-to-bl from-[#e2e2e2] to-[#a5a1e2] bg-clip-text md:order-2 order-1"
           >
             NextJs
           </h1>
-          <p className=" text-blue-300">
+          <p className=" text-blue-300 md:order-3 order-2 md:w-full w-[75%]">
             Next.js is a React framework for fast, SEO-friendly websites with
             easy routing and server-side rendering.
           </p>

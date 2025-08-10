@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
             <Navbar />
             <div
               className=" min-h-[calc(100vh-102px)] sm:min-h-[calc(100vh-90px)]
-            flex justify-center items-center py-6
+            flex justify-center items-center py-6 px-2
           "
             >
               {children}
