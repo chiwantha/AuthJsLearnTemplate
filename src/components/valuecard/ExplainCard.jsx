@@ -5,7 +5,7 @@ const ExplainCard = ({ title, description, link }) => {
   return (
     <div
       className="flex flex-col items-start justify-start rounded-lg p-4
-    space-y-2 bg-slate-50/10 hover:bg-slate-50/20"
+    space-y-2 bg-slate-50/10 hover:bg-slate-50/20 transition-colors duration-300"
     >
       <h2 className="font-bold text-xl text-[#ff466b]">{title}</h2>
       <p className="text-slate-300 text-sm">{description}</p>
