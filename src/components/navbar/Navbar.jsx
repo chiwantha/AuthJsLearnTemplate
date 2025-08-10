@@ -3,7 +3,7 @@ import Links from "./links/Links";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[45px]">
+    <div className="w-full h-[45px] ">
       <div
         className="mx-auto  max-w-7xl h-full flex 
       items-center justify-between border-slate-50/10 border-b"

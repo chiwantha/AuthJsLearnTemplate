@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="w-full flex gap-6 flex-col">
       {/* image */}
-      <div className="hidden md:block w-full min-h-[300px] p-4 relative">
+      <div className="w-full min-h-[200px] mt-4 relative">
         <Image
           src={"https://authjs.dev/img/etc/logo-sm.webp"}
           alt="Auth.js Logo"
@@ -40,8 +40,8 @@ export default function Home() {
             apps with secure, flexible authentication out of the box
           </p>
           <div className="grid-cols-2 lg:grid-cols-3 grid gap-4 w-full">
-            <ValueCard title="Users" value="1000" />
-            <ValueCard title="Sessions" value="5000" />
+            <ValueCard title="Users" value="10M" />
+            <ValueCard title="Sessions" value="50K" />
             <div className="col-span-2 lg:col-span-1">
               <ValueCard title="Active Users" value="300" />
             </div>

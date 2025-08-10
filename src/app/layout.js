@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
           <div className="max-w-7xl mx-auto text-white select-none">
             <Navbar />
             <div
-              className=" h-[calc(100vh-90px)]
-            flex justify-center items-center
+              className=" min-h-[calc(100vh-102px)] sm:min-h-[calc(100vh-90px)]
+            flex justify-center items-center py-6
           "
             >
               {children}
