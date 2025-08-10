@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable}  `}>
         <div className="bg-gradient-to-bl from-[#00224D] to-[#5D0E41] px-2">
-          <div className="max-w-7xl mx-auto text-white">
+          <div className="max-w-7xl mx-auto text-white select-none">
             <Navbar />
             <div
               className=" h-[calc(100vh-90px)]

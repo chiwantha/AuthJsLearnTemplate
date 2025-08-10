@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "authjs.dev",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.creazilla.com",
+      },
+    ],
+  },
+};
 
 export default nextConfig;
