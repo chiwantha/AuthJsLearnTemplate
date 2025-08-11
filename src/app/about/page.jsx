@@ -43,7 +43,7 @@ const AboutPage = () => {
 
         <div className="flex flex-col justify-center items-center gap-6 w-full md:w-[80%]">
           <h1
-            className="text-4xl md:text-5xl font-bold  text-transparent
+            className="text-4xl md:text-5xl font-black  text-transparent
           bg-gradient-to-bl from-[#b333fd] to-[#4928da] bg-clip-text"
           >
             What Is This
@@ -63,7 +63,7 @@ const AboutPage = () => {
               />
             ))}
           </div>
-          <span className="text-lg text-slate-200">
+          <span className="text-[16px] text-slate-300">
             Learn More About{" "}
             <Link
               href="https://authjs.dev"

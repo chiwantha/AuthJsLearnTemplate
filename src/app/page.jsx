@@ -39,7 +39,7 @@ export default function Home() {
             Next.js with Auth.js enables you to build fast, SEO-friendly web
             apps with secure, flexible authentication out of the box
           </p>
-          <div className="grid-cols-2 lg:grid-cols-3 grid gap-4 w-full">
+          <div className="grid-cols-2 lg:grid-cols-3 grid gap-2 w-full">
             <ValueCard title="Users" value="10M" />
             <ValueCard title="Sessions" value="50K" />
             <div className="col-span-2 lg:col-span-1">

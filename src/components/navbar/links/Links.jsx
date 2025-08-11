@@ -56,7 +56,7 @@ const Links = () => {
 
       {/* Mobile Menu Button */}
       <button
-        className="text-white text-3xl sm:hidden focus:outline-none"
+        className="text-[#FF204E] text-3xl sm:hidden focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
@@ -80,7 +80,7 @@ const Links = () => {
       >
         <div className="p-4 h-full flex flex-col">
           <button
-            className="text-white text-3xl self-end focus:outline-none"
+            className="text-pink-400 text-3xl self-end focus:outline-none"
             onClick={() => setIsOpen(false)}
             aria-label="Close menu"
           >
