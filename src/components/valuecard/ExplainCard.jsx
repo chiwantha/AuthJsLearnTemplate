@@ -8,7 +8,7 @@ const ExplainCard = ({ title, description, link }) => {
     space-y-2 bg-slate-50/10 hover:bg-slate-50/20 transition-colors duration-300"
     >
       <h2 className="font-bold text-xl text-[#ff466b]">{title}</h2>
-      <p className="text-slate-300 text-sm">{description}</p>
+      <p className="text-slate-300 text-[16px]">{description}</p>
       <span className="text-xs text-blue-400 hover:text-blue-300">
         <Link href={link} target="_blank">
           Read More

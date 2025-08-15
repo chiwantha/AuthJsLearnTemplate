@@ -1,4 +1,4 @@
-import RegisterForm from "@/components/auth/registerform/RegisterForm";
+import RegisterForm from "@/components/forms/registerform/RegisterForm";
 import Link from "next/link";
 
 const RegisterPage = () => {
